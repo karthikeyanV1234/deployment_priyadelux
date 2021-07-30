@@ -63,7 +63,7 @@ max-width: 600px;
 @media screen and (max-width: 768px) {
   font-size: 24px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   font-size: 18px;
 }
   
@@ -92,7 +92,7 @@ display: block;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 20px;
   }
   

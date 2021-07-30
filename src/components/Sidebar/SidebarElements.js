@@ -5,7 +5,7 @@ import { FaTimes } from 'react-icons/fa';
 export const SidebarContainer = styled.aside`
 position: fixed;
   z-index: 999;
-  width: 350px;
+  width: 250px;
   height: 100%;
   background-image: linear-gradient(
     -225deg,
@@ -102,12 +102,7 @@ color:#fff;
 font-size: 48px;
 text-align: center;
 
-@media screen and (max-width: 768px) {
-  font-size: 40px;
-}
-@media screen and (max-width: 480px) {
-  font-size: 32px;
-}
+
   
 `;
 export const SocialIcons = styled.div`
@@ -115,12 +110,7 @@ color:#fff
 font-size: 48px;
 text-align: center;
 
-@media screen and (max-width: 768px) {
-  font-size: 40px;
-}
-@media screen and (max-width: 400px) {
-  font-size: 32px;
-}
+
   
 `;
 export const SocialIcons2 = styled.div`

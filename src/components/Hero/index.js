@@ -23,7 +23,13 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop mute src ={Video} type='video/mp4'/>
+        <VideoBg 
+        autoPlay 
+        loop 
+        muted 
+        >
+        <source src ={Video} type='video/mp4' />
+        </VideoBg>
       </HeroBg>
       <Navbar toggle={toggle} />
       
