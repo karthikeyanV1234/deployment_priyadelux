@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavLink as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { GiCoconuts } from 'react-icons/gi';
 
 export const Nav = styled.nav`
@@ -99,3 +99,13 @@ display: block;
 `;
   
 
+export const SidebarMenu = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 80px);
+  text-align: center;
+
+  @media screen and (max-width: 480px) {
+    grid-template-rows: repeat(3, 60px);
+  }
+`;
