@@ -13,7 +13,7 @@ const Feature = () => {
       
       <h1>Phone: 9442059218 </h1>
       <p>Email: priyadeluvelmurugan@gmail.com</p>
-      <h2>Since Our company is established 1988,Around 33years we are successed in this filed . we provide pure and natural traditional Chekku Coconut oil. </h2>
+      <h2>Since Our company is established 1988,Around 33years we are successed in this field. we provide pure and natural traditional Chekku Coconut oil. </h2>
       <SocialIcons>
       <SocialIconLink 
               href=' https://wa.me/qr/GFIYDZYYWSLII1' 
