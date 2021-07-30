@@ -9,6 +9,13 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
+        
+        <NavLink to='/'></NavLink>
+        <Navlogo><img src={image} alt="" height={200} width={200} /></Navlogo>
+        <NavIcon onClick= {toggle}>
+          <p>Menu</p>
+          <Bars />
+        </NavIcon>
         <SocialIcons>
           <SocialIconLink 
               href='https://goo.gl/maps/K97xQNdYqoQxiKhn9' 
@@ -18,13 +25,6 @@ const Navbar = ({ toggle }) => {
               </SocialIconLink>
           
           </SocialIcons>
-        <NavLink to='/'></NavLink>
-        <Navlogo><img src={image} alt="" height={200} width={200} /></Navlogo>
-        <NavIcon onClick={toggle}>
-          <p>Menu</p>
-          <Bars />
-        </NavIcon>
-        
         </NavbarContainer>
       </Nav>
     </>
