@@ -4,21 +4,12 @@ import { GiCoconuts } from 'react-icons/gi';
 
 export const Nav = styled.nav`
 background: transparent;
-background-repeat: no-repeat;
-height: 80px;
-display: flex;
-justify-content: center;
-font-weight: 700;
--o-object-fit: cover;
-object-fit: cover;
-
-@media screen and (max-width: 768px) {
-  font-size: 24px;
-}
-@media screen and (max-width: 480px) {
-  font-size: 18px;
-}
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
 `;
+
 export const NavbarContainer = styled.div`
   display: flex;
  
@@ -72,7 +63,7 @@ max-width: 600px;
 @media screen and (max-width: 768px) {
   font-size: 24px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   font-size: 18px;
 }
   
@@ -101,7 +92,7 @@ display: block;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
     font-size: 20px;
   }
   
