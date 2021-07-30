@@ -28,6 +28,12 @@ export const FeatureContainer = styled.div`
     margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
   }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 export const FeatureButton = styled.button`
   font-size: 1.4rem;
@@ -42,6 +48,12 @@ export const FeatureButton = styled.button`
     background: #e31837;
     transition: 0.2s ease-out;
     cursor: pointer;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
   }
 `;
 export const SocialIconLink = styled.a`

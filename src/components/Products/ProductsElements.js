@@ -6,6 +6,13 @@ export const ProductsContainer = styled.div`
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #150f0f;
   color: #fff;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+  
 `;
 
 export const ProductWrapper = styled.div`

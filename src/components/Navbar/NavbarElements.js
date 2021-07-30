@@ -4,10 +4,20 @@ import { GiCoconuts } from 'react-icons/gi';
 
 export const Nav = styled.nav`
 background: transparent;
+background-repeat: no-repeat;
 height: 80px;
 display: flex;
 justify-content: center;
 font-weight: 700;
+-o-object-fit: cover;
+object-fit: cover;
+
+@media screen and (max-width: 768px) {
+  font-size: 24px;
+}
+@media screen and (max-width: 480px) {
+  font-size: 18px;
+}
 `;
 export const NavbarContainer = styled.div`
   display: flex;
@@ -26,6 +36,9 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 
   @media screen and (max-width: 400px) {
     position: absolute;
@@ -41,7 +54,7 @@ display: block;
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #000080;
+  color:#FFFF00;
 
   p {
     transform: translate(-175%, 100%);
@@ -70,7 +83,7 @@ export const Bars = styled(GiCoconuts)`
   transform: translate(-50%, -15%);
 `;
 export const SocialIconLink = styled.a`
-  color: #000080;
+  color: #FFFF00;
   font-size: 38px;
 `;
 export const SocialIcons = styled.div`
@@ -85,6 +98,13 @@ display: block;
     transform: translate(-175%, 100%);
     font-weight: bold;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+  
 `;
   
 

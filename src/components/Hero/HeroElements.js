@@ -10,6 +10,12 @@ export const HeroContainer = styled.div`
  height: 800px;
  position: relative;
  z-index: 1;
+ @media screen and (max-width: 768px) {
+  font-size: 24px;
+}
+@media screen and (max-width: 480px) {
+  font-size: 20px;
+}
 
 `;
 export const HeroBg = styled.div`
@@ -21,6 +27,12 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 
 `;
 
@@ -31,6 +43,13 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 
 export const HeroContent = styled.div`
@@ -41,6 +60,12 @@ padding: 8px 24px;
 display:flex;
 flex-direction: column;
 align-items: center;
+@media screen and (max-width: 768px) {
+  font-size: 24px;
+}
+@media screen and (max-width: 480px) {
+  font-size: 18px;
+}
 `;
 
 export const HeroItems = styled.div`
