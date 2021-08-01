@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { GiCoconuts } from 'react-icons/gi';
+import { SiGooglemaps } from "react-icons/si";
 
 export const Nav = styled.nav`
 background: transparent;
@@ -108,4 +109,8 @@ export const SidebarMenu = styled.div`
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(3, 60px);
   }
+`;
+export const Maps = styled(SiGooglemaps)`
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
 `;

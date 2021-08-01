@@ -11,8 +11,6 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      
-      
       <Hero />
       <Products heading='Choose your item' data={productData} />
       <Feature  />
